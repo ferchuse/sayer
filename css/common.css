@@ -12,7 +12,9 @@
   -ms-user-select: none;
   user-select: none;
 }
-
+.cargando{
+	background: url('../img/cargando.gif') no-repeat right center;
+}
 /* Hide the browser's default checkbox */
 .custom_checkbox input {
   position: absolute;
