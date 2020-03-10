@@ -4,11 +4,11 @@ function Conectarse()
 	
 	$host="localhost";
 	
-	if($_SERVER["SERVER_NAME"] == "minisuper3g.micrositio.mx"){
+	if($_SERVER["SERVER_NAME"] == "sayer.micrositio.mx"){
 		//echo "_SERVER".$_SERVER["SERVER_NAME"];
 		$db="microsit_sayer";
-		$usuario="microsit_practic";
-		$pass="UAEH@2018";
+		$usuario="microsit_sistema";
+		$pass="Glifom3dia";
 	}
 	else{
 		$db="sayer";
