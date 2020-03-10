@@ -1,5 +1,5 @@
 <?php
-	
+		$timbres_restantes = 50;
 	include("funciones/dame_permiso.php");
 	
 ?>
@@ -135,6 +135,16 @@
 					<li class="<?php echo $menu_activo == "resumen" ? "active" : ''; ?>">
 						<a href="corte/resumen.php">
 							<i class="fas fa-cash-register"></i> Corte de Caja
+						</a>
+					</li>
+					<?php
+					}
+				?>
+				<?php if(dame_permiso("facturacion/index.php", $link) != "Sin Acceso"){	?>
+					<li class="<?php echo $menu_activo == "facturacion" ? "active" : ''; ?>">
+						<a href="facturacion/index.php">
+							<i class="fas fa-qrcode"></i> Facturación
+								<span class="badge badge-success"><?php echo $timbres_restantes;?></span>
 						</a>
 					</li>
 					<?php

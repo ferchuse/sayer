@@ -261,6 +261,10 @@
 															<i class="fas fa-eye"></i>
 														</button>
 														
+														<a title="Facturar" class="btn btn-secondary" href="../facturacion/facturas_nueva.php?id_ventas=<?= $id_ventas;?>">
+															<i class="fas fa-qrcode"></i>
+														</a>
+														
 														<?php
 														}
 													?>

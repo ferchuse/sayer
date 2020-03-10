@@ -1,1 +1,1 @@
-<?php include("facturas_nueva.php")?>
+<?php include("facturas.php")?>
